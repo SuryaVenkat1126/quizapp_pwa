@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+
+#When a robot looks for the "/robots.txt" file for URL, it strips the path component from the URL (everything from the first single slash), and puts "/robots.txt" in its place.
+
+#For example, for "http://www.example.com/shop/index.html, it will remove the "/shop/index.html", and replace it with "/robots.txt", and will end up with "http://www.example.com/robots.txt".
+
+User-agent: *
+Disallow: /
